@@ -60,23 +60,12 @@ It helps students:
 
 
 
+## 📁 Project Structure
+
 ```text
-
 AI-Study-Buddy/
-
 ├── app.py
-
 ├── prompts.py
-
 ├── requirements.txt
-
 ├── README.md
-
-├── .gitignore
-
-├── .streamlit/
-
-│   └── secrets.toml
-
-└── venv/
-
+└── .gitignore
