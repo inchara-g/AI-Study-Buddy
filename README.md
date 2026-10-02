@@ -85,3 +85,17 @@ pip install -r requirements.txt
 5. Run the application
 python -m streamlit run app.py
 
+
+add this:
+
+```markdown
+## 🔐 Configure Secrets
+
+Create this file:
+
+```text
+.streamlit/secrets.toml
+
+GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
+GMAIL_ADDRESS = "YOUR_GMAIL_ADDRESS"
+GMAIL_APP_PASSWORD = "YOUR_GMAIL_APP_PASSWORD"
