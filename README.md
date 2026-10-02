@@ -56,9 +56,6 @@ It helps students:
 
 
 
-\## 📁 Project Structure
-
-
 
 ## 📁 Project Structure
 
@@ -69,3 +66,22 @@ AI-Study-Buddy/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+
+⚙️ Installation
+1. Clone the repository
+git clone https://github.com/inchara-g/AI-Study-Buddy.git
+cd AI-Study-Buddy
+
+2.Create a virtual environment
+python -m venv venv
+
+3.Activate the virtual environment
+For Windows PowerShell:
+venv\Scripts\Activate.ps1
+
+4. Install dependencies
+pip install -r requirements.txt
+
+5. Run the application
+python -m streamlit run app.py
+
